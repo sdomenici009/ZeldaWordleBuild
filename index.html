@@ -27,11 +27,11 @@
     </div>
     <script>
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/WebGL_Builds.loader.js";
+      var loaderUrl = buildUrl + "/ZeldaWordleBuild.loader.js";
       var config = {
-        dataUrl: buildUrl + "/WebGL_Builds.data.br",
-        frameworkUrl: buildUrl + "/WebGL_Builds.framework.js.br",
-        codeUrl: buildUrl + "/WebGL_Builds.wasm.br",
+        dataUrl: buildUrl + "/ZeldaWordleBuild.data",
+        frameworkUrl: buildUrl + "/ZeldaWordleBuild.framework.js",
+        codeUrl: buildUrl + "/ZeldaWordleBuild.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "OpenWordle",
@@ -53,8 +53,8 @@
           mobileWarning.style.display = "none";
         }, 5000);
       } else {
-        canvas.style.width = "960px";
-        canvas.style.height = "600px";
+        canvas.style.width = "480px";
+        canvas.style.height = "320px";
       }
       loadingBar.style.display = "block";
 
