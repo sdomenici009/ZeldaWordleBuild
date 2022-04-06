@@ -1,6 +1,6 @@
 #unity-container { padding-top: 20px; }
 #unity-canvas { background: #231F20; }
-#unity-loading-bar { position: absolute; left: 50%; top: 18%; transform: translate(-50%, 0%);}
+#unity-loading-bar { position: absolute; left: 50%; top: 160px; transform: translate(-50%, 0%);}
 #unity-logo { width: 154px; height: 130px; background: url('unity-logo-dark.png') no-repeat center }
 #unity-progress-bar-empty { width: 141px; height: 18px; background: url('progress-bar-empty-dark.png') no-repeat center }
 #unity-progress-bar-full { width: 0%; height: 18px; background: url('progress-bar-full-dark.png') no-repeat center }
