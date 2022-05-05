@@ -26,7 +26,7 @@
 #twitter-timeline { margin:auto; width:480px; height:540px; padding-top: 10px; }
 
 @media only screen and (max-width: 768px) {
-#unity-container { margin:auto; width:auto; height:auto; }
+#unity-container { margin:auto; width:auto; height:74vw; }
 #twitter-timeline { margin:auto; width:auto; height:auto; }
 #roadmap-button { margin:auto; width:auto; height:auto; }
 }
