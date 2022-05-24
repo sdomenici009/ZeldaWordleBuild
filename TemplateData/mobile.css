@@ -1,0 +1,32 @@
+#unity-container { margin:auto; width: 960px; aspect-ratio:960/352; padding-top: 20px; }
+#unity-canvas { width: 100%; height:100%; background: #231F20; }
+#unity-loading-bar { position: absolute; left: 50%; top: 160px; transform: translate(-50%, 0%);}
+#unity-logo { width: 154px; height: 130px; background: url('unity-logo-dark.png') no-repeat center }
+#unity-progress-bar-empty { width: 141px; height: 18px; background: url('progress-bar-empty-dark.png') no-repeat center }
+#unity-progress-bar-full { width: 0%; height: 18px; background: url('progress-bar-full-dark.png') no-repeat center }
+
+#roadmap-button {
+    width: 480px; 
+    margin: 16px; 
+    padding: 8px; 
+    background-color: rgb(255, 255, 255); 
+    color: rgb(0, 0, 0); 
+    border: 2px; 
+    border-style: solid; 
+    border-radius: 16px; 
+    font-size: 22px; 
+    font-family: Montserrat;
+}
+
+#roadmap-button:hover {
+      background-color:#e5edf1;
+      transition: 0.35s;
+}
+
+#twitter-timeline { margin:auto; width:480px; height:540px; padding-top: 10px; }
+
+@media only screen and (max-width: 768px) {
+    #unity-container { margin:auto; width:100%; }
+    #twitter-timeline { margin:auto; width:auto; height:auto; }
+    #roadmap-button { margin-right:auto; margin-left:auto; width:100%; height:100%; }
+}
