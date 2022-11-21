@@ -1,4 +1,4 @@
-#unity-container { margin:auto; width: 960px; height:384px; padding-top: 20px; }
+#unity-container { margin:auto; width: 480px; height:352px; padding-top: 20px; }
 #unity-canvas { width: 100%; height:100%; background: #231F20; }
 #unity-loading-bar { position: absolute; left: 50%; top: 160px; transform: translate(-50%, 0%);}
 #unity-logo { width: 154px; height: 130px; background: url('unity-logo-dark.png') no-repeat center }
